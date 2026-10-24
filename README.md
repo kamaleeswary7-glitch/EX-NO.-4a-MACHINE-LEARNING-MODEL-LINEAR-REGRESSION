@@ -41,7 +41,7 @@ The uploaded notebook compares the following models:
 10.	K-Nearest Neighbors (KNN) Regressor 
 
 ## PROCEDURE 
-
+~~~
 1.Import the required Python libraries for data processing, visualization, machine learning models, and model evaluation.
 2.Load the house price dataset from the specified CSV file using Pandas.
 3.Display the first five records of the dataset.
@@ -62,9 +62,9 @@ The uploaded notebook compares the following models:
 18.Perform residual analysis to study prediction errors.
 19.Calculate Random Forest and Gradient Boosting feature importance.
 20.Plot the RMSE comparison graph for all regression models.
-
+~~~
 ## PROGRAM 
-
+~~~
 from google.colab import drive
 
 drive.mount('/content/drive')
@@ -640,7 +640,7 @@ ha='right'
 
 plt.tight_layout()
 plt.show()
-
+~~~
 ## OUTPUT 
 
 <img width="705" height="615" alt="image" src="https://github.com/user-attachments/assets/db43ccca-931f-4ce6-96ab-746765b0f81c" />
